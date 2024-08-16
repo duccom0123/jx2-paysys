@@ -11,8 +11,11 @@ Nên tôi chỉ hướng dẫn cài trên alma linux 9.
 ⚡ Sử dụng trên alma linux 9:
 
 dnf update -y
+
 dnf install mariadb-connector-c-devel.x86_64
+
 rm -rf /usr/lib64/libmysqlclient.so.18
+
 ln -s /usr/lib64/libmysqlclient.so /usr/lib64/libmysqlclient.so.18
 
 gõ các lệnh trên để cài đặt môi trường cho paysys
